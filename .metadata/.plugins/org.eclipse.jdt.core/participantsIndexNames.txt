@@ -1,0 +1,11 @@
+INDEX VERSION 1.130
+D:\Aakanksha MCA\MCA Project\Bookstore\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2029521923.index
+\BookStoreWebsite\src
+D:\Aakanksha MCA\MCA Project\Bookstore\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\4146415184.index
+\BookStoreWebsite\src
+D:\Aakanksha MCA\MCA Project\Bookstore\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3555644095.index
+\BookStoreWebsite\src
+D:\Aakanksha MCA\MCA Project\Bookstore\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2905324804.index
+\BookStoreWebsite\src
+D:\Aakanksha MCA\MCA Project\Bookstore\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3312649187.index
+\BookStoreWebsite\src

@@ -1,0 +1,36 @@
+package com.bookstore.dao;
+
+import static org.junit.Assert.*;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+import org.junit.Test;
+
+import com.bookstore.entity.Users;
+
+public class UserDAOTest {
+
+	@Test
+	public void testCreateUsers() {
+		Users user1 = new Users();
+		user1.setEmail("mujumdaraakanksha@gmail.com");
+		user1.setFullName("Aakanksha");
+		user1.setPassword("12345678");
+		
+	    EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("BookStoreWebsite");
+        EntityManager entityManager = entityManagerFactory.createEntityManager();
+        
+        
+        UserDAO userDAO = new UserDAO(entityManager);
+        user1 = userDAO.create(user1);
+        
+        
+        entityManager.getTransaction().commit();
+        entityManager.close();
+        
+        assertTrue(user1.getUserId()> 0);
+	}
+
+}
